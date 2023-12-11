@@ -1,0 +1,17 @@
+.paragrafo {
+    font-size: 24px;
+}
+.titulo {
+    text-align: center;
+}
+.fixado {
+    font-size: 32px;
+    background-color: black;
+    color: white;
+    position: fixed;
+    top: 270px;
+    width: 200px;
+    height: 120px;
+    text-align: center;
+    padding-top: 50px;
+}

@@ -1,0 +1,18 @@
+.menu {
+    width: 200px;
+}
+
+.menu a{
+    background-color: rgb(29, 0, 159);
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+}
+.menu a:hover {
+    background-color: antiquewhite;
+}
+.menu a:active {
+    background-color: aqua;
+    color:white
+}

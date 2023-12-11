@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="DataHora"></div>
+ 
+    <script>
+        async function tempo() {
+            //tratar exeção caso nõ apareça o horario de vinda do API
+            try {
+                const resposta = await fetch('https://worldtimeapi.org/api/timezone/America/Sao_Paulo');
+                if(!resposta.ok) {
+                    throw new Error('erro ao carregar o horário atual!');
+                }
+             
+                //json transforma em texto a resposta vinda da API
+                const timeData = await resposta.json();
+                return timeData;
+            } catch(error){
+                console.error('Erro', error);
+                throw new Error('não foi possível obter o horário');
+            }
+           
+        }
+        //mostrar o horário no nosso html (div)
+        async function displayTempo() {
+            try {
+                const tempoData = await tempo();
+                const ElementoTempoData = document.getElementById('DataHora');
+                ElementoTempoData.innerHTML = `Horario atual de são Paulo: ${tempoData.datetime}`;
+            }catch(erro) {
+                console.error('erro ao obter horário atual', erro);
+                const ElementoTempoData = document.getElementById('DataHora');
+                ElementoTempoData.innerHTML = 'erro ao carregar horário atual';
+            }
+        }
+        displayTempo()
+    </script>
+</body>
+</html>

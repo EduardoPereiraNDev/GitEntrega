@@ -1,0 +1,7 @@
+.border {
+    padding: 60px 40px 5px 30px;
+    width:600px;
+    border: solid blue;
+    color: white;
+    background-color: gray;
+}

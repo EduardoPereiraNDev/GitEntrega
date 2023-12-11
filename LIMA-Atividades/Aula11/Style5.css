@@ -1,0 +1,24 @@
+.imagem {
+    float: left;
+    margin-right: 1.5cm;
+}
+.imagen {
+    float: right;
+    margin-left: 1.5cm;
+}
+.imagems {
+    margin-left: 600px;
+}
+.imagens {
+    margin-left: 240px;
+}
+.flutua {
+    clear: both;
+    text-align: center;
+    background-color: blueviolet;
+    border: 4px solid;
+    border-radius: 10px;
+}
+.esquerda {
+    text-align: right;
+}

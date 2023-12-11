@@ -1,0 +1,10 @@
+.img{
+    width:100% ;
+}
+.div {
+    position: absolute;
+    top:400px;
+    left: 700px;
+    font-size: 64px;
+    background-color: white;
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag e Drop</title>
+</head>
+<html>
+    <body>
+ 
+        <h1>Drag e Drop - Exemplo1</h1>
+    <div id="estrutu">
+        <div id="div" ondrop="drop(event)" ondragover="allowDrop(event)"> </div>
+    </div>
+        <br>
+        <img id="drag1" src="Img/2.jpg" draggable="true" ondragstart="drag(event)" width="180" height="300">
+        <h1>Drag e Drop - Exemplo2</h1>
+       
+        <div id="d1" ondrop="drop2(event)" ondragover="allowDrop2(event)">
+          <img src="img/1.jpg" draggable="true" ondragstart="drag2(event)" id="image" width="88" height="31">
+        </div>
+       
+        <div id="d2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    </body>
+    <style>
+    #estrutu {
+        display: flex;
+    }
+    #div {
+        width: 185px;
+        height: 305px;
+        padding: 10px;
+        border: 1px solid #000000;
+        display: flex;
+    }
+    #d1, #d2 {
+          float: left;
+          width: 200px;
+          height: 70px;
+          margin: 10px;
+          padding: 10px;
+          border: 3px solid black;
+        }
+        #image{
+            height: 70px;
+            width: 100px;
+        }
+    </style>
+    <script>
+         function allowDrop(rr) {
+        rr.preventDefault();
+    }
+ 
+        function drag(rr) {
+        rr.dataTransfer.setData("text", rr.target.id);
+ 
+    }
+ 
+        function drop(rr) {
+        rr.preventDefault();
+        var data = rr.dataTransfer.getData("text");
+        rr.target.appendChild(document.getElementById(data));
+    }
+   
+    function allowDrop2(dd) {
+          dd.preventDefault();
+        }
+      
+        function drag2(dd) {
+           
+          dd.dataTransfer.setData("text", dd.target.id);
+        }
+       
+        function drop2(dd) {
+            
+          dd.preventDefault();
+          
+          var data = dd.dataTransfer.getData("text");
+        
+          dd.target.appendChild(document.getElementById(data));
+        }
+    </script>
+ 
+</html>

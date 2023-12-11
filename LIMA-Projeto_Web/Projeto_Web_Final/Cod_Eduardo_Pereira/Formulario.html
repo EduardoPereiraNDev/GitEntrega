@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Css/Formulario.css">
+    <title> Formulário </title>
+</head>
+<body>
+    <!-- Cabeçalho--> 
+    <div class="Cabecalho">
+        <a href="Catalogo.html"><img src="Img/Logo-Sesi.jpg" class="Logo-Sesi"></a>
+        <a href="Catalogo.html"><img src="Img/Logo-Home.png" class="Logo-P"></a>
+        <a href="Reservados.html"><img src="Img/Livro-Icon.png" class="Logo-P"> </a>
+        <a href="Perfil.html"><img src="Img/Usuario.png" class="Logo-P"> </a>
+    </div>
+    <!-- Corpo-->
+    <div class="Corpo">
+        <div class="Quadrado">
+            <form>
+            <h2> Nome:</h2>
+            <input type="text" class="Text" placeholder="Nome" required>
+                <h2> Série:</h2>
+                <select required>
+                    <option value="" >Selecione</option>
+                    <option >1°Ano</option>
+                    <option >2°Ano</option>
+                    <option >3°Ano</option>
+                    <option >4°Ano</option>
+                    <option >5°Ano</option>
+                    <option >6°Ano</option>
+                    <option >7°Ano</option>
+                    <option >8°Ano</option>
+                    <option >9°Ano</option>
+                    <option >1°Ano-Médio</option>
+                    <option >2°Ano-Médio</option>
+                    <option >3°Ano-Médio</option>
+                </select><br>
+            <h2> Livro a se reservar:</h2>
+            <input type="text" class="Text" placeholder="Livro-Ex:'Diario de um banana- Dias de cão " required> 
+            <form>
+            <h2> Algum livro a devolver?</h2>
+            <input type="radio" name="preferencia" class="Text" required>Sim <br>
+            <input type="radio" name="preferencia" class="Text" required>Não <br>
+            <button type="submit" class="botao">Enviar</button>
+            </form> 
+        </div>
+    </div>
+    <div class="Rodape">
+        <h2>SESI-Biblioteca 205</h2>
+        <p> Este é um website criado para a escola sesi de descalvado, nela possui diversos livros, em que todos estão disponiveis na biblioteca fisica escolar. </p>
+        <p>  ©2023 Sesi</p>
+        <p>Feito Por : Eduardo Pereira</p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,89 @@
+/*Menu aula 11 */
+.menu {
+    width: 200px;
+    position: relative;
+    top: 210px;
+    left: 190px;
+}
+
+.menu a{
+    background-color: rgb(29, 0, 159);
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+}
+.menu a:hover {
+    background-color: antiquewhite;
+}
+.menu a:active {
+    background-color: aqua;
+    color:white
+}
+/*Menu aula 12 */
+.Dropbtn{
+    background-color: green;
+    color: black;
+    padding: 16px;
+    font-size: px;
+    border: none;
+    width: 80px;
+}
+.Dropdown {
+   position: absolute;
+   left: 250px;
+   top: 250px;
+   display: inline-block;
+}
+.Dropdown-content {
+    position: absolute;
+    display: none;
+    padding: 16px;
+    background-color: rgb(168, 168, 168);
+    min-width: 150px;
+    box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.Dropdown-content a{
+    color:black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.Dropdown-content a:hover {
+    background-color: chocolate;
+}
+.Dropdown:hover .Dropbtn {
+    display: block;
+}
+.Dropdown:hover .Dropdown-content{
+    display: block;
+}
+.Div {
+    width: 40%;
+    height: 600px;
+    background-color: yellow;
+}
+.div2 {
+    position: absolute;
+    top: 8px;
+    left: 1000px;
+    width: 40%;
+    height: 600px;
+    background-color: rgb(4, 0, 255);
+    z-index: 2;
+}
+.img {
+    margin-left: 601px;
+    width: 391px;
+}
+.um {
+    position: relative;
+    top: -40px;
+    left: 550px;
+}
+.dois {
+    position: relative;
+    top: -70px;
+    left: 1000px;
+}

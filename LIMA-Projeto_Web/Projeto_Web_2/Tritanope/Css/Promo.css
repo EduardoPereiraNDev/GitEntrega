@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Milonga&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: 0;
+}
+body {
+    font-family: milonga;
+    height: 950px;
+    background-image: linear-gradient(rgb(209, 153, 153) 40%,rgba(0, 255, 255, 0.755));
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.titulo {
+    margin-top: 40px;
+}
+h1 {
+    font-size: 50px;
+    width: 400px;
+}
+.ba {
+    text-decoration: none;
+    color: black;
+}
+.imgg{
+    width: 200px;
+    height: 200px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.inicio {
+    display: flex;
+    flex-direction: row;
+}
+.cor {
+    color: white;
+    text-align: start;
+}
+.button2 {
+    width: 200px;
+    height: 35px;
+    background-color: cyan ;
+    margin-left: 100px;
+    font-size: 26px;
+    border-radius: 30px;
+}
+.botao {
+    text-decoration: underline;
+     width: 200px;
+    height: 35px;
+    background-color: cyan ;
+    margin-left: 100px;
+    font-size: 26px;
+    border-radius: 30px;
+}
+.ab {
+    width: 150px;
+    height: 150px;
+}
+.quadradoo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+#immg {
+    width: 50px;
+    margin-left: 10px;
+}
+.ba {
+    text-decoration: none;
+    color: black;
+}
+#dalto {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: end;
+    margin-left: 540px;
+}
+.Dropbtn2{
+    color: black;
+    font-size: px;
+    border: none;
+    background-color:rgb(209, 153, 153);
+}
+.Dropdown2 {
+   position: relative;
+   display: inline-block;
+}
+.Dropdown-content2 {
+    position: absolute;
+    display: none;
+    padding: 16px;
+    min-width: 140px;
+    box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.Dropdown-content2 a{
+    color:black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.Dropdown-content2 a:hover {
+    background-color: rgb(159, 158, 158);
+}
+.Dropdown2:hover .Dropbtn2 {
+    display: block;
+}
+.Dropdown2:hover .Dropdown-content2{
+    display: block;
+}
+#titulo2 {
+    display: flex;
+    flex-direction: row;
+}
+.bot{
+    margin-top: 40px;
+    width: 50px;
+    height: 40px;
+    background-color: cyan;
+    color: cyan;
+    border-radius: 100px;
+}
+#linha-horizontal {
+    width: 1200px;
+    border: 1px solid cyan;
+    margin-left: 100px;
+    margin-top: 15px;
+}
+
+#linha-horizontal2 {
+    width: 1200px;
+    border: 1px solid rgb(163, 13, 163);
+    margin-left: 100px;
+}
+.div2 {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-right: 230px;
+    margin-top: 100px;
+    font-size: 12px;
+}
+#Home {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+}
+.link {
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 1000px;
+    height: 30px;
+    margin-left: 100px;
+    padding-left: 40px;
+}
+.Dropbtn{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    padding: 16px;
+    font-size: px;
+    border: none;
+}
+#menuu {
+    width: 200px;
+    height: 60px;
+}
+.Dropdown {
+   position: relative;
+   display: inline-block;
+   margin-left: 10px;
+}
+.Dropdown-content {
+    position: absolute;
+    display: none;
+    padding: 16px;
+    background-color: rgb(255, 255, 255);
+    min-width: 150px;
+    box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.Dropdown-content a{
+    color:black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.Dropdown-content a:hover {
+    background-color: rgb(159, 158, 158);
+}
+.Dropdown:hover .Dropbtn {
+    display: block;
+}
+.Dropdown:hover .Dropdown-content{
+    display: block;
+}
+.immg {
+    width: 70px;
+    margin-left: 30px;
+}
+.corpo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.div3 {
+    display: flex;
+    justify-content: center;
+}
+.TTitulo {
+    width: 500px;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+.precoo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1px;
+    background-color: bisque;
+    width: 100px;
+    height: 27px;
+    box-shadow: 0 0 3px 0;
+}
+.promoc {
+    display: flex;
+}
+.boton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 270px;
+    height: 90px;
+    border-radius: 50px;
+    background-color: bisque;
+    margin-left: 30px;
+    margin-top: 40px;
+}

@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: 0;
+    font-family: Ubuntu;
+}
+body {
+    background-image: url(/Cod_Eduardo_Pereira/Img/fundope.png);
+}
+/* Corpo */
+.Corpo {
+    display: flex;
+}
+.Foto-Login {
+    width: 65%;
+    height: 762px;
+    background-image: url(/Cod_Eduardo_Pereira/Img/Foto-Login.png);
+    background-size: cover;
+    opacity: 0.9;
+}
+.Logo-Sesi {
+    width: 400px;
+    position: relative;
+    top: 100px
+}
+.Login-Area {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Login {
+    background-color: white;
+    border: 2px black solid;
+    border-radius: 10px;
+    box-shadow: 10px;
+    margin-top: 200px;
+    width: 300px;
+    height: 260px;
+    padding: 20px;
+    padding-bottom: 0;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+label{
+    margin-bottom: 20px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+input {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#Senha , #Nome {
+    background-color: rgba(159, 157, 157, 0.433);
+    width: 280px;
+    height: 25px;
+    border-radius: 20px;
+    padding-left: 10px;
+}
+.Botao-Login {
+    margin-left: 100px;
+    margin-bottom: 15px;
+    width: 100px;
+    height: 25px;
+    border-radius: 20px;
+    margin-top: 25px;
+    font-size: 15px;
+    background-color: rgba(255, 0, 0, 0.585);
+    cursor: pointer;
+}
+h3 {
+    text-align: center;
+    text-decoration: underline;
+    color: black;
+}

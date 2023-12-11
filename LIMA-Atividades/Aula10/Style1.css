@@ -1,0 +1,23 @@
+.ca {
+    position: fixed; left: 0; top: 0; 
+    margin: 0;
+    background-color: rgb(86, 107, 215);
+    color: black;
+    width: 100%;
+    height:50px;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 50px;
+}
+.P {
+    font-family: arial;
+    background-color: green;
+    color: blue;
+    width: 250px;
+    margin-top: 100px;
+}
+.div {
+    color: gray;
+    margin-bottom: 1000px;
+}

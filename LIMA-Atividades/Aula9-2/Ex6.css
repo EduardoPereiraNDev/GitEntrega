@@ -1,0 +1,17 @@
+.corpo {
+    background-color: rgb(178, 170, 170);
+    border: solid black;
+    padding: 30px;
+    margin: 110px;
+    margin-top: 10px;
+}
+.corpoo {
+    background-color: gray;
+
+}
+.titulo {
+    color: black;
+    font-size: 100px;
+    text-align: center;
+    font-family: 'Courier New';
+}

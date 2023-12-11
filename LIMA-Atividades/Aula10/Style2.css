@@ -1,0 +1,10 @@
+#cabecalho {
+    text-align: center;
+    background-image: url(Imagem/Imagem1.jfif);
+    background-size: cover;
+}   
+.texto {
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif   ;
+
+}

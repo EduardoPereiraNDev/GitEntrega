@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: 0;
+    font-family: Ubuntu;
+}
+body {
+    background-image: url(/Cod_Eduardo_Pereira/Img/fundope.png);
+}
+/*  Cabeçalho   */
+.Cabecalho {
+    position: fixed;
+    width: 100%;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    z-index: 2;
+}
+.Logo-Sesi {
+    width: 250px;
+    margin-right: 900px;
+}
+.Logo-P {
+    width: 70px;
+}
+/*  Corpo   */
+/*  Menu-Vertical   */
+.Menu-Vertical {
+    position: fixed;
+    top: 80px;
+    background-image: url(/Cod_Eduardo_Pereira/Img/fundope.png);
+    border-right: 3px solid gray;
+    width: 325px;
+    height: 700px;
+    padding-top: 15px;
+}
+.Autores {
+    margin-left: 15px;
+    border: 1px red solid;
+    border-radius: 5px;
+    width: 291px;
+    height: 310px;
+    background-color: white;
+}
+.Barra-Autor {
+    border: 1px gray solid;
+    border-radius: 5px;
+    width: 270px;
+    height: 40px;
+    padding-left: 20px;
+}
+.Escolha-Autores {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.Tipo {
+    width: 50px;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+input[type="checkbox"] {
+    -webkit-appearance: none;
+    border: 2px red solid;
+    border-radius: 3px;
+    width: 20px;
+    height: 20px;
+}
+input[type="checkbox"]:checked {
+    background-color: red;
+}
+/* Catálogo */
+.Corpo-Dois {
+    margin-left: 325px;
+    position: relative;
+    top: 105px;
+}
+.Autor-Um {
+    margin-left: 20px;
+}
+.Livros-Img {
+    width: 200px;
+    height: 298px;
+    border-radius: 15px;
+}
+.Quadrado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    width: 230px;
+    height: 315px;
+    box-shadow: 4px 4px 1px 1px rgba(0, 0, 0, 0.105);
+    border: 1px solid rgba(0, 0, 0, 0.241);
+    border-radius: 15px;
+    margin-right: 10px;
+    margin-bottom: 50px;
+}
+.Quadrado:hover {
+    transition-duration: 500ms;
+    width: 250px;
+    height: 330px;
+    margin-bottom: 1px;
+}
+.Catalogo {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+    overflow-x: scroll;
+    overflow-x: hidden;
+}
+.Autor-Dois {
+    margin-left: 20px;
+}
+.Rodape {
+    margin-left: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+     background-color: red;
+     color: white;
+     padding: 20px;
+     height: 65px;
+     margin-top: 70px;
+}
+p {
+    text-align: center;
+    width: 800px;
+}
+
+
+  
+
+
+
+

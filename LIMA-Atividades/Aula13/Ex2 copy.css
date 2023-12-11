@@ -1,0 +1,27 @@
+body{
+    margin: 10px;
+    background-color: #c1ac99 ;
+    border: solid white 5px;
+}
+#Titulo {
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
+#Div {
+ display: flex;
+ justify-content: space-around;
+ margin-bottom: 150px;
+}
+#paragrafo {
+   width: 300px;
+   font-size: 32px;
+   color: white;
+   padding: 40px;
+   border: 10px double white;
+}
+#img {
+    width: 40%;
+}

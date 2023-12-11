@@ -1,0 +1,23 @@
+body{
+    background-color: #c1ac99 ;
+    border: solid white 5px;
+}
+.Titulo {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
+.paragrafo {
+   position: relative;
+   left: 1000px;
+   top: -375px;
+   width: 300px;
+   font-size: 32px;
+   color: white;
+   padding: 40px;
+   border: 10px double white;
+}
+.img {
+    width: 40%;
+    margin-left: 300px;
+}

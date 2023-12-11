@@ -1,0 +1,41 @@
+/*
+p {
+    font-size: 12pt;
+}
+p::first-line {
+    color: blue;
+    font-variant: small-caps;
+} */
+/* Imagem titulo  */
+.h1::after {
+    content: url(Imagem/Imagem1.jfif);
+}
+.h1::before {
+    content: url(Imagem/Imagem1.jfif);
+}
+
+.paragrafo::after {
+    text-align: start;
+    display: inline;
+    content: url(Imagem/Imagem1.jfif);
+}
+.paragrafoo {
+    position: relative ;
+    left: 555px;
+    bottom: 50px;
+}
+
+/* Outra */
+
+.p::selection {
+     color: red;
+     background: rgb(107, 255, 122);
+}
+
+/* outra */
+
+.div {
+    background-image: url(Imagem/Imagem1.jfif);
+    background-repeat: no-repeat;
+    background-position: right top;
+}

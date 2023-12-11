@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: 0;
+    font-family: ubuntu;
+}
+body {
+    background-image: url(/Cod_Eduardo_Pereira/Img/fundope.png);
+    height: 1000px;
+}
+/*  Cabeçalho   */
+.Cabecalho {
+    position: fixed;
+    width: 100%;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    z-index: 2;
+}
+.Logo-Sesi {
+    width: 250px;
+    margin-right: 900px;
+}
+.Logo-P {
+    width: 70px;
+}
+/* Corpo */
+/* Perfil*/
+.Corpo-Dois {
+    display: flex;
+    justify-content: center;
+}
+.Quadrado-Perfil {
+    margin-top: 125px;
+    width: 70%;
+    height: 600px;
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 20px;
+}
+.Arrumador {
+    display: flex;
+    align-items: center;
+}
+.Usuario {
+    width: 400px;
+    margin-left: 30px;
+    margin-right: 130px;
+}
+#Inicio {
+    margin-top: 60px;
+    margin-bottom: 10px;
+}
+input {
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding-left: 10px;
+    background-color: rgb(208, 207, 207);
+    color: black;
+    height: 40px;
+    width: 350px;
+}
+h3 {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.Button {
+    background-color: red;
+    border-radius: 30px;
+    height: 40px;
+    width: 200px;
+    color: white;
+    font-size: 15px;
+    margin-top: 50px;
+    cursor: pointer;
+    margin-left: 80px;
+}
+.Rodape {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+     background-color: red;
+     color: white;
+     padding: 20px;
+     height: 65px;
+     margin-top: 169px;
+}
+p {
+    text-align: center;
+    width: 800px;
+}

@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: 0;
+}
+body{
+    background-color: rgb(210, 203, 203);
+}
+.cabe{
+    width: 99,9%;
+    height: 80px;
+    background-color: rgb(30, 99, 30);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    border: 1px solid black;
+}
+.corpo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.sla{
+    margin-top: 150px;
+}
+input{
+    width: 300px;
+    height: 30px;
+    margin-left: 85px;
+}
+label{
+    margin-top: 20px;
+    margin-left: 85px;
+}
+button{
+    width: 175px;
+    height: 30px;
+    margin-top: 15px;
+    border-radius: 10px;
+    background-color: rgb(27, 146, 27);
+}
+#apr{
+margin-left: 180px;
+}
+#apr2{
+margin-left: 360px;
+}

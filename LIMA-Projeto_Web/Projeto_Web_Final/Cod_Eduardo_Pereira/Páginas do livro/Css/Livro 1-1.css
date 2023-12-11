@@ -1,0 +1,93 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: 0;
+}
+body {
+    background-image: url(/Cod_Eduardo_Pereira/Img/fundope.png);
+    height: 700px;
+}
+/*  Cabeçalho   */
+.Cabecalho {
+    position: fixed;
+    width: 100%;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    z-index: 2;
+}
+.Logo-Sesi {
+    width: 250px;
+    margin-right: 900px;
+}
+.Logo-P {
+    width: 70px;
+}
+/* Corpo */
+/* Livro */
+.Corpo-Dois {
+    margin-left: 225px;
+    position: relative;
+    top: 150px;
+}
+.Arrumador {
+    display: flex;
+    align-items: center;
+}
+.Livros {
+    width: 220px;
+    margin-right: 100px;
+}
+.Quadrado {
+    background-color: white;
+    border: 1px black solid;
+    border-radius: 30px;
+    padding: 30px;
+    height: 400px;
+    align-items: center;
+}
+h2 {
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+p {
+    width: 700px;
+}
+.Button {
+    background-color: red;
+    border-radius: 30px;
+    height: 40px;
+    width: 200px;
+    color: white;
+    font-size: 15px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+h3 {
+    margin-top: 50px;
+    color: red;
+    font-size: 32px;
+}
+.Arrumador-Dois {
+    display: flex;
+}
+td {
+    border: 1px black solid;
+    padding: 5px;
+}
+tr {
+    border: 1px black solid;
+    padding: 5px;
+}
+th {
+    border: 1px black solid;
+    padding: 5px;
+}
+table {
+    border: 1px black solid;
+    padding: 5px;
+    margin-left: 40px;
+    margin-top: 30px;
+}

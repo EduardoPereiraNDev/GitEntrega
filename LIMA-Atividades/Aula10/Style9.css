@@ -1,0 +1,7 @@
+.tabela {
+    background-color: purple;
+}
+.tabela td {
+    background-color: yellow; 
+    border: 10px solid #87ceeb;
+}

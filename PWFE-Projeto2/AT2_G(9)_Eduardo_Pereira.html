@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/Ex2_g1.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Clinica Veterinaria</h1>
+    <label for="valor">Preço Vacina:</label><br>
+    <input type="text" id="valor"> <br>
+    <form>
+        <h2>Possui Convênio?</h2>
+        <input type="radio" id="sim" value="1" name="Te" onclick="seguro()">
+        <label for="sim">Sim</label><br>
+        <input type="radio" id="nao" value="2" name="Te" checked onclick="seguro()">
+        <label for="nao ">Não</label><br>
+        <select id="plano">
+            <option>Escolha</option>
+            <option value="vida">Vida Pet</option>
+            <option value="anima">Animal Planet</option>
+        </select>
+    </form>       
+    <p id="preco"></p>
+    <p id="desconto"></p>
+    <button onclick="desconto()">Ver Preço</button>           
+<script src="JS/Ex2_g1.js"></script>
+</body>
+</html>
